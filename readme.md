@@ -23,4 +23,4 @@ php bin/console doctrine:migrations:migrate --env=test
 POST /api/book/create ['name', 'author']\
 GET /api/{lang}/book/{id}\
 GET /api/book/search?name= ['name']\
-POST /api/author/create ['name']\
+POST /api/author/create ['name']
