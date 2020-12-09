@@ -17,7 +17,7 @@ php bin/console doctrine:fixtures:load\
 bin/phpunit
 
 php bin/console doctrine:database:create --env=test\
-php bin/console doctrine:migrations:migrate --env=test \
+php bin/console doctrine:migrations:migrate --env=test
 
 Методы api\
 POST /api/book/create ['name', 'author']\
