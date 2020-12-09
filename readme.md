@@ -1,3 +1,5 @@
+code block
+
 Копируем репозиторий
 git clone https://github.com/yuri-yamsh/books.git
 
